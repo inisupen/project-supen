@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<!--=== Coding by CodingLab | www.codinglabweb.com === -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="css/3.css">
+     
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--<title>Admin Dashboard Panel</title>--> 
+</head>
+<body>
+    <nav>
+        <div class="logo-name">
+            <div class="logo-image">
+                <img src="assets/logo (2).png" alt="">
+            </div>
+
+            
+        </div>
+
+        <div class="menu-items">
+            <ul class="nav-links">
+                <li><a href="2.html">
+                    <i class="uil uil-home"></i>
+                    <span class="link-name">Dahsboard</span>
+                </a></li>
+                <li><a href="3.html">
+                    <i class="uil uil-users-alt"></i>
+                    <span class="link-name">Karyawan</span>
+                </a></li>
+                <li><a href="intern.html">
+                    <i class="uil uil-book-reader"></i>
+                    <span class="link-name">Magang</span>
+                </a></li>
+                <li><a href="cuti.html">
+                    <i class="uil uil-clipboard-notes"></i>
+                    <span class="link-name">Cuti</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="uil uil-document-info"></i>
+                    <span class="link-name">Resign</span>
+                </a></li>
+                <li><a href="gaji.html">
+                    <i class="uil uil-bitcoin-circle"></i>
+                    <span class="link-name">Gaji</span>
+                </a></li>
+            </ul>
+            
+            <ul class="logout-mode">
+                <li><a href="#">
+                    <i class="uil uil-signout"></i>
+                    <span class="link-name">Logout</span>
+                </a></li>
+
+                <li class="mode">
+                    <a href="#">
+                        <i class="uil uil-moon"></i>
+                    <span class="link-name">Dark Mode</span>
+                </a>
+
+                <div class="mode-toggle">
+                  <span class="switch"></span>
+                </div>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="dashboard">
+        <div class="top">
+            <i class="uil uil-bars sidebar-toggle"></i>
+            <div class="search-box">
+                <i class="uil uil-search"></i>
+                <input type="text" placeholder="Search here...">
+            </div>
+
+        </div>
+
+        <div class="dash-content">
+            <div class="activity">
+                <div class="title">
+                    <div style="flex: .5;">
+                        <i class="uil uil-user"></i> 
+                    </div>
+                    <span class="text" style="flex: 11;">Data Karyawan</span>
+                    <div style="flex: .5;">
+                        <button i class="btn1" class="uil uil-plus-circle"></i></button>    
+                    </div>
+                </div>
+                <main>
+                <div class="data-karyawan">
+                    
+                    <table>
+                        <thead>
+                            <tr>
+                            <th>Nama</th>
+                            <th>Tempat, Tanggal Lahir</th>
+                            <th>Kota Domisili</th>
+                            <th>Email Kantor</th>
+                            <th>Kontak</th>
+                            <th>Jabatan</th>
+                            <th>Product</th>
+                            
+                        </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>iron men</td>
+                                <td>Surabaya, 8 Agustus 1990</td>
+                                <td>surabaya</td>
+                                <td>ironman123@gmail.com</td>
+                                <td>0811111111</td>
+                                <td>Front End</td>
+                                <td>website</td>
+                                <td><button id="myBtn" class="btn danger">Detail</button>
+
+                                    <!-- The Modal -->
+                                    <div id="detail" class="detail">
+                                    <div class="detail-tabel">
+                                        <span class="close">&times;</span>
+                                        <table>
+                                        <tr><td>Nama : iron man</td></tr>
+                                        <tr><td>Tempat, Tanggal Lahir: surabaya, 8 Agustus 1990</td></tr>
+                                        <tr><td>Kota Domisili: surabaya</td></tr>
+                                        <tr><td>Email Kantor: ironman123@gmail.com</td></tr>
+                                        <tr><td>Kontak: 0811111111</td></tr>
+                                        <tr><td>Jabatan: Front End</td></tr>
+                                        <Tr><td>Product: website</td></tr>
+                                        <tr><td>masa kerja: 6thn</td></tr>
+                                        <tr><td>Gaji awal: 60m</td></tr>
+                                        <tr><td>kenaikan gaji: 20 juta/tahun</td></tr>
+                                   </table></td></div>
+                            </tr>
+                            <tr>
+                                <td>iron men</td>
+                                <td>Surabaya, 8 Agustus 1990</td>
+                                <td>surabaya</td>
+                                <td>ironman123@gmail.com</td>
+                                <td>0811111111</td>
+                                <td>Front End</td>
+                                <td>website</td>
+                                <td><button id="myBtn1" class="btn danger">Detail</button>
+
+                                    <!-- The Modal -->
+                                    <div id="detail1" class="detail">
+                                    <div class="detail-tabel">
+                                        <span class="close">&times;</span>
+                                        <table>
+                                        <tr><td>Nama : iron man</td></tr>
+                                        <tr><td>Tempat, Tanggal Lahir: surabaya, 8 Agustus 1990</td></tr>
+                                        <tr><td>Kota Domisili: surabaya</td></tr>
+                                        <tr><td>Email Kantor: ironman123@gmail.com</td></tr>
+                                        <tr><td>Kontak: 0811111111</td></tr>
+                                        <tr><td>Jabatan: Front End</td></tr>
+                                        <Tr><td>Product: website</td></tr>
+                                        <tr><td>masa kerja: 6thn</td></tr>
+                                        <tr><td>Gaji awal: 60m</td></tr>
+                                        <tr><td>kenaikan gaji: 20 juta/tahun</td></tr>
+                                   </table></td></div>
+                            </tr>  
+                            <tr>
+                                <td>iron men</td>
+                                <td>Surabaya, 8 Agustus 1990</td>
+                                <td>surabaya</td>
+                                <td>ironman123@gmail.com</td>
+                                <td>0811111111</td>
+                                <td>Front End</td>
+                                <td>website</td>
+                                <td><button class="btn danger">Detail</button></td>
+                            </tr>
+                            <tr>
+                                <td>iron men</td>
+                                <td>Surabaya, 8 Agustus 1990</td>
+                                <td>surabaya</td>
+                                <td>ironman123@gmail.com</td>
+                                <td>0811111111</td>
+                                <td>Front End</td>
+                                <td>website</td>
+                                <td><button class="btn danger">Detail</button></td>
+                            </tr>
+                            <tr>
+                                <td>iron men</td>
+                                <td>Surabaya, 8 Agustus 1990</td>
+                                <td>surabaya</td>
+                                <td>ironman123@gmail.com</td>
+                                <td>0811111111</td>
+                                <td>Front End</td>
+                                <td>website</td>
+                                <td><button class="btn danger">Detail</button></td>
+                            </tr>
+                            <tr>
+                                <td>iron men</td>
+                                <td>Surabaya, 8 Agustus 1990</td>
+                                <td>surabaya</td>
+                                <td>ironman123@gmail.com</td>
+                                <td>0811111111</td>
+                                <td>Front End</td>
+                                <td>website</td>
+                                <td><button class="btn danger">Detail</button></td>
+                            </tr>
+                            <tr>
+                                <td>iron men</td>
+                                <td>Surabaya, 8 Agustus 1990</td>
+                                <td>surabaya</td>
+                                <td>ironman123@gmail.com</td>
+                                <td>0811111111</td>
+                                <td>Front End</td>
+                                <td>website</td>
+                                <td><button class="btn danger">Detail</button></td>
+                            </tr>   
+                            <tr>
+                                <td>iron men</td>
+                                <td>Surabaya, 8 Agustus 1990</td>
+                                <td>surabaya</td>
+                                <td>ironman123@gmail.com</td>
+                                <td>0811111111</td>
+                                <td>Front End</td>
+                                <td>website</td>
+                                <td><button class="btn danger">Detail</button></td>
+                            </tr>
+                            <tr>
+                                <td>iron men</td>
+                                <td>Surabaya, 8 Agustus 1990</td>
+                                <td>surabaya</td>
+                                <td>ironman123@gmail.com</td>
+                                <td>0811111111</td>
+                                <td>Front End</td>
+                                <td>website</td>
+                                <td><button class="btn danger">Detail</button></td>
+                            </tr>
+                            
+                                    
+                        </tbody>
+                    </table>
+                    </main>
+    </section>
+
+    <script src="./2.js"></script>
+</body>
+</html>
